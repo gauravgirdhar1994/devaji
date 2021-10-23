@@ -51,7 +51,7 @@
                                     <div class="logo">
                                           <a href="index-2.html"><img
                                                       src="<?php echo base_url(); ?>assets/frontend/img/logo/logo.png"
-                                                      width="182" height="66" alt=""></a>
+                                                      width="250" height="130" alt=""></a>
                                     </div>
                                     <!-- Main-menu -->
                                     <div class="main-menu d-none d-lg-block">
