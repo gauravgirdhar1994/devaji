@@ -1,0 +1,38 @@
+<?php
+
+function send_custom_email($email_to, $subject, $body)
+{
+	// echo $email_to, $subject, $body;
+	$CI =& get_instance();
+    $CI->load->library('email'); // load library 
+
+	$CI->email->from('no-reply@jordanzweifler.com', 'Jordan Zweifler Website');
+	// $CI->email->from('admin@qualityconnect.com', 'Quality Connect');
+	$CI->email->to($email_to);
+	// $this->email->cc('another@another-example.com');
+	$CI->email->bcc('gaurav.girdhar@tecvololabs.com');
+
+	$CI->email->subject($subject);
+	$CI->email->message($body);
+	$CI->email->set_mailtype("html");
+	$CI->email->send();
+
+	echo $CI->email->print_debugger();
+	die;
+	// return 'in helper email function';	
+	
+}
+
+function populate_email_body($variables, $template)
+{
+	if(!empty($variables))
+	{
+		foreach($variables as $key => $value)
+		{
+			$template = str_replace('{{ '.$key.' }}', $value, $template);
+		}
+	}
+	return $template;
+}
+
+?>

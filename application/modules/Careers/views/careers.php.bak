@@ -1,0 +1,234 @@
+              <section class="section-career">
+                <div class="overlay-internal"></div>
+                <h1 class="text-center"> Careers</h1>
+                <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod</p>
+                <a href="<?php echo base_url();?>refer-a-friend" class="btn btn-primary btn-baff btn-join-team">Join Our Team<a/>
+                <a href="<?php echo base_url();?>refer-a-friend" class="btn btn-primary btn-baff btn-join-team">Refer a Friend<a/>
+                </section>
+
+                <section class="consec">
+                  <div class="container">
+                   <div class="row">
+                    <div class="col-lg-12 text-center">
+                     <h2 class="section-heading">Why Clients Trust Us?</h2>
+                     <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod</p>
+
+                   </div>
+                 </div>
+               </div>
+               <div class="container">
+                 <div class="row">
+                  <div class="col-lg-4 col-md-6 text-center">
+                   <div class="service-box mt-5 mx-auto">
+                    <img src="<?php echo base_url();?>img/Quality-icon.png" class="img-responsive"><br><br>
+                    <h3 class="mb-3">Quality</h3>
+                    <p class="text-muted mb-0">Request a demonstration of Achieve3000's award-winning, differentiated instruction solutions.</p>
+
+                    <!-- <a href="#" class="btn btn-primary btn-baff">Request a Demo<a/> -->
+                    </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                     <img src="<?php echo base_url();?>img/innovation.png" class="img-responsive"><br><br>
+                     <h3 class="mb-3">Innovation</h3>
+                     <p class="text-muted mb-0">Reach out to our Sales team directly for immediate assistance with all sales-related inquiries.</p>
+
+                     <!-- <a href="#" class="btn btn-primary btn-baff">Sales Inquiry<a/> -->
+                     </div>
+                   </div>
+                   <div class="col-lg-4 col-md-6 text-center"><br>
+                     <div class="service-box mt-5 mx-auto">
+                      <img src="<?php echo base_url();?>img/think.png" class="img-responsive"><br>
+                      <h3 class="mb-3">Thinking</h3>
+                      <p class="text-muted mb-0">Get in touch with customer support for assistance with your Achieve3000 implementation</p>
+
+                      <!-- <a href="#" class="btn btn-primary btn-baff">Customer Support<a/> -->
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="career_sec2 hiring-profile-sec">
+               <div class="container">
+                <div class="row">
+                 <div class="col-lg-12 text-center">
+                  <h2 class="section-heading">We’re Hiring!</h2>
+                  <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod</p>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+
+             <div class="hiring-profile-lists">
+              <div class="hire-profile-colum">
+               <div class="row">
+                <div class="col-md-4">
+                 <div class="mx-auto">                              
+                  <h3>Profile</h3>
+                </div>
+              </div>
+              <div class="col-md-8">
+               <div class="mx-auto">                              
+                <h3>Requirements</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hire-profile-colum">
+          <div class="row">
+           <div class="col-md-3">
+            <div class="mx-auto">
+             <span class="profile-title"> <a href="#" style="color: #333;font-size: 22px;font-weight: 600;">Senior Software Developer</a> </span>
+
+             <span class="profile-position">Position: 1</span>
+             <span class="profile-experience">Experience: 4-5 YEARS</span>
+           </div>
+         </div>
+         <div class="col-md-6">
+          <div class="mx-auto">
+            <p class="profile-desc"> Maintain a good standard of coding and adhere to the same conventions as the rest of the team. </p>
+            <p class="profile-desc"> Willing to take ownership of projects and present your proposed solutions to the wider team of non-technical staff. </p>
+            <p class="profile-desc"> Work well both independently and as part of a team with a proactive attitude to problem-solving and an understanding of the role of development in a creative environment. </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mx-auto">
+            <a href="<?php echo base_url();?>apply-now" class="btn btn-primar btn-baff">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hire-profile-colum">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="mx-auto">
+            <span class="profile-title"> <a href="/senior-software-developer">Senior Software Developer</a> </span>
+
+            <span class="profile-position">Position: 1</span>
+            <span class="profile-experience">Experience: 4-5 YEARS</span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mx-auto">
+            <p class="profile-desc"> Maintain a good standard of coding and adhere to the same conventions as the rest of the team. </p>
+            <p class="profile-desc"> Willing to take ownership of projects and present your proposed solutions to the wider team of non-technical staff. </p>
+            <p class="profile-desc"> Work well both independently and as part of a team with a proactive attitude to problem-solving and an understanding of the role of development in a creative environment. </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mx-auto">
+            <a href="<?php echo base_url();?>apply-now" class="btn btn-primar btn-baff">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hire-profile-colum">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="mx-auto">
+            <span class="profile-title"> <a href="/senior-software-developer">Senior Software Developer</a> </span>
+
+            <span class="profile-position">Position: 1</span>
+            <span class="profile-experience">Experience: 4-5 YEARS</span>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mx-auto">
+            <p class="profile-desc"> Maintain a good standard of coding and adhere to the same conventions as the rest of the team. </p>
+            <p class="profile-desc"> Willing to take ownership of projects and present your proposed solutions to the wider team of non-technical staff. </p>
+            <p class="profile-desc"> Work well both independently and as part of a team with a proactive attitude to problem-solving and an understanding of the role of development in a creative environment. </p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="mx-auto">
+            <a href="<?php echo base_url();?>apply-now" class="btn btn-primar btn-baff">Apply Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</div>
+
+</section>
+
+<section class="work-culture">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">Our Work Culture</h2>
+        <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="gal">
+
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+
+        <img src="https://preview.ibb.co/mWpE3Q/2.jpg" alt="">
+
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+
+        <img src="https://preview.ibb.co/mysOxk/3.jpg" alt="">
+
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/mWpE3Q/2.jpg" alt="">
+
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+
+        <img src="https://preview.ibb.co/mysOxk/3.jpg" alt="">
+
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt=""><img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/mysOxk/3.jpg" alt="">
+
+        <img src="https://preview.ibb.co/mysOxk/3.jpg" alt="">
+
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/i0PmHk/1.jpg" alt="">
+        <img src="https://preview.ibb.co/mWpE3Q/2.jpg" alt="">
+
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- <section class="subcribe-foot">
+
+  <div class="row">
+    <div class="col-lg-6 col-md-6 text-center mar-pad0">
+      <div class="mx-auto">
+        <h2>Subscribe with us for updates</h2>
+      </div>
+    </div>
+
+    <div class="col-lg-6 col-md-6 text-center">
+      <div class="mx-auto pull-left subscribe">
+        <div class="input-group">
+          <input type="email" class="form-control subsemail" placeholder="Enter your email" required="">
+          <span class="input-group-btn">
+           <input type="submit" class="btn btn-primary btn-baff" value="Subscribe">
+         </span>
+       </div>
+     </div>
+   </div>
+
+ </div>
+
+</section> -->

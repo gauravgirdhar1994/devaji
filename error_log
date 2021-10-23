@@ -1,0 +1,2 @@
+[22-May-2017 08:43:29 UTC] PHP Fatal error:  Call to undefined method Admin_lottery_predictions_model::get_lottery_details() in /home/softeste/public_html/test/lottery-prediction/application/modules/Admin_lotteries/controllers/Admin_lottery_predictions.php on line 50
+[16-Jun-2017 08:34:58 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/softeste/public_html/test/lottery-prediction/application/modules/Admin_queries/models/Admin_queries_model.php on line 52

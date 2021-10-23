@@ -1,0 +1,140 @@
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+/*
+|--------------------------------------------------------------------------
+| Display Debug backtrace
+|--------------------------------------------------------------------------
+|
+| If set to TRUE, a backtrace will be displayed along with php errors. If
+| error_reporting is disabled, the backtrace will not display, regardless
+| of this setting
+|
+*/
+defined('SHOW_DEBUG_BACKTRACE') OR define('SHOW_DEBUG_BACKTRACE', TRUE);
+
+/*
+|--------------------------------------------------------------------------
+| File and Directory Modes
+|--------------------------------------------------------------------------
+|
+| These prefs are used when checking and setting modes when working
+| with the file system.  The defaults are fine on servers with proper
+| security, but you may wish (or even need) to change the values in
+| certain environments (Apache running a separate process for each
+| user, PHP under CGI with Apache suEXEC, etc.).  Octal values should
+| always be used to set the mode correctly.
+|
+*/
+defined('FILE_READ_MODE')  OR define('FILE_READ_MODE', 0644);
+defined('FILE_WRITE_MODE') OR define('FILE_WRITE_MODE', 0666);
+defined('DIR_READ_MODE')   OR define('DIR_READ_MODE', 0755);
+defined('DIR_WRITE_MODE')  OR define('DIR_WRITE_MODE', 0755);
+
+/*
+|--------------------------------------------------------------------------
+| File Stream Modes
+|--------------------------------------------------------------------------
+|
+| These modes are used when working with fopen()/popen()
+|
+*/
+defined('FOPEN_READ')                           OR define('FOPEN_READ', 'rb');
+defined('FOPEN_READ_WRITE')                     OR define('FOPEN_READ_WRITE', 'r+b');
+defined('FOPEN_WRITE_CREATE_DESTRUCTIVE')       OR define('FOPEN_WRITE_CREATE_DESTRUCTIVE', 'wb'); // truncates existing file data, use with care
+defined('FOPEN_READ_WRITE_CREATE_DESTRUCTIVE')  OR define('FOPEN_READ_WRITE_CREATE_DESTRUCTIVE', 'w+b'); // truncates existing file data, use with care
+defined('FOPEN_WRITE_CREATE')                   OR define('FOPEN_WRITE_CREATE', 'ab');
+defined('FOPEN_READ_WRITE_CREATE')              OR define('FOPEN_READ_WRITE_CREATE', 'a+b');
+defined('FOPEN_WRITE_CREATE_STRICT')            OR define('FOPEN_WRITE_CREATE_STRICT', 'xb');
+defined('FOPEN_READ_WRITE_CREATE_STRICT')       OR define('FOPEN_READ_WRITE_CREATE_STRICT', 'x+b');
+
+/*
+|--------------------------------------------------------------------------
+| Exit Status Codes
+|--------------------------------------------------------------------------
+|
+| Used to indicate the conditions under which the script is exit()ing.
+| While there is no universal standard for error codes, there are some
+| broad conventions.  Three such conventions are mentioned below, for
+| those who wish to make use of them.  The CodeIgniter defaults were
+| chosen for the least overlap with these conventions, while still
+| leaving room for others to be defined in future versions and user
+| applications.
+|
+| The three main conventions used for determining exit status codes
+| are as follows:
+|
+|    Standard C/C++ Library (stdlibc):
+|       http://www.gnu.org/software/libc/manual/html_node/Exit-Status.html
+|       (This link also contains other GNU-specific conventions)
+|    BSD sysexits.h:
+|       http://www.gsp.com/cgi-bin/man.cgi?section=3&topic=sysexits
+|    Bash scripting:
+|       http://tldp.org/LDP/abs/html/exitcodes.html
+|
+*/
+defined('EXIT_SUCCESS')        OR define('EXIT_SUCCESS', 0); // no errors
+defined('EXIT_ERROR')          OR define('EXIT_ERROR', 1); // generic error
+defined('EXIT_CONFIG')         OR define('EXIT_CONFIG', 3); // configuration error
+defined('EXIT_UNKNOWN_FILE')   OR define('EXIT_UNKNOWN_FILE', 4); // file not found
+defined('EXIT_UNKNOWN_CLASS')  OR define('EXIT_UNKNOWN_CLASS', 5); // unknown class
+defined('EXIT_UNKNOWN_METHOD') OR define('EXIT_UNKNOWN_METHOD', 6); // unknown class member
+defined('EXIT_USER_INPUT')     OR define('EXIT_USER_INPUT', 7); // invalid user input
+defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
+defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
+defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
+
+// Database Tables
+define('DB_PREFIX', 'agt_');
+
+// Queries
+define('TBL_QUERIES', DB_PREFIX.'queries');
+
+define('TBL_SPONSORS' , DB_PREFIX. 'sponsors_requests');
+define('TBL_HACKATHON_REGS' , DB_PREFIX. 'hackathon_regs');
+define('TBL_PROPOSALS' , DB_PREFIX. 'proposals');
+define('TBL_CONTACTS' , DB_PREFIX. 'contacts');
+
+define('TBL_USERS', DB_PREFIX.'users');
+
+define('TBL_USERS_INFO', DB_PREFIX.'users_info');
+
+define('TBL_PARTICIPANTS', DB_PREFIX.'participants');
+
+define('TBL_TICKETS', DB_PREFIX.'tickets');
+
+define('TBL_COUPONS', DB_PREFIX.'coupon_codes');
+
+// Admin USers
+define('TBL_ADMIN_USERS', DB_PREFIX.'admin_users');
+
+// Settings
+define('TBL_CUSTOM_SETTINGS', DB_PREFIX.'custom_settings');
+
+// Feedback
+define('TBL_FEEDBACK', DB_PREFIX.'feedback');
+
+
+define('TBL_COUNTRIES', DB_PREFIX.'countries');
+define('TBL_COUNTRY', DB_PREFIX.'country');
+define('TBL_CITIES', DB_PREFIX.'cities');
+define('TBL_STATES', DB_PREFIX.'states');
+
+// Pages
+define('TBL_PAGES', DB_PREFIX.'pages');
+
+define('TBL_COMMENTS', DB_PREFIX.'comments');
+define('TBL_EMAIL_TEMPLATES', DB_PREFIX.'email_templates');
+define('TBL_USER_TEMPLATES', DB_PREFIX.'user_templates');
+define('TBL_USER_EMAILS', DB_PREFIX.'user_emails');
+
+// Emails, Paths etc.
+// define('PUB_LOGO_PATH', 'publishers/logos');
+// define('CLASSIFIED_IMAGE_PATH', 'classifieds/images');
+define('CLIENT_IMAGE_PATH', 'clients/images');
+define('TICKET_IMAGE_PATH', 'tickets/images');
+define('IMAGE_UPLOAD_PATH', 'images');
+define('EXPERT_IMAGE_PATH', 'experts/images');
+define('REVIEW_IMAGE_PATH', 'reviews/images');
+
+define('CNST_NO_ITEMS_PER_PAGE', 15);

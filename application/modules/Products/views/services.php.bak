@@ -1,0 +1,178 @@
+<section class="section-about">
+	<div class="overlay-internal"></div>
+	<h1 class="text-center"> Web Development</h1>
+	<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod</p>
+</section>
+
+<section class="consec">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Website Development</h2>
+				<h4 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod</h4>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod</p>
+
+			</div>
+		</div>
+	</div>					
+	
+</section>
+
+<section class="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center" style="padding:2%;">
+				<h2 class="section-heading">Areas of focus</h2>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod</p>
+
+			</div>
+		</div>
+	</div>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-5 col-md-5 text-center">
+				<img src="img/pexels-photo-908284.jpeg" class="img-fluid">
+			</div>
+			<div class="col-lg-7 col-md-7">
+				
+				<div class="row">
+					<div class="media">
+						<a class="media-left media-middle" href="#">
+							<i class="fa fa-bullhorn fa-5x"></i>
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">Article Name</h4>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="media">
+						<a class="media-left media-middle" href="#">
+							<i class="fa fa-bullhorn fa-5x"></i>
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">Article Name</h4>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="media">
+						<a class="media-left media-middle" href="#">
+							<i class="fa fa-bullhorn fa-5x"></i>
+						</a>
+						<div class="media-body">
+							<h4 class="media-heading">Article Name</h4>
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+							
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+			
+		</div>
+		
+	</div>
+</section>
+
+<section class="details-card">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12 text-center" style="padding:2%;">
+				<h2 class="section-heading">Suggested Readings</h2>
+				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod eiusmod</p>
+
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card-content">
+					<div class="card-img">
+						<img src="https://placeimg.com/380/230/nature" alt="">
+						
+					</div>
+					<div class="card-desc">
+						<h3>Heading</h3>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+						voluptas totam</p>
+						<a href="#" class="btn btn-primary btn-baff">Read</a>   
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card-content">
+					<div class="card-img">
+						<img src="https://placeimg.com/380/230/animals" alt="">
+						
+					</div>
+					<div class="card-desc">
+						<h3>Heading</h3>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+						voluptas totam</p>
+						<a href="#" class="btn btn-primary btn-baff">Read</a>   
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card-content">
+					<div class="card-img">
+						<img src="https://placeimg.com/380/230/tech" alt="">
+						
+					</div>
+					<div class="card-desc">
+						
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+						voluptas totam</p>
+						<a href="#" class="btn btn-primary btn-baff">Read</a>   
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="card-content">
+					<div class="card-img">
+						<img src="https://placeimg.com/380/230/tech" alt="">
+						
+					</div>
+					<div class="card-desc">
+						
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, voluptatum! Dolor quo, perspiciatis
+						voluptas totam</p>
+						<a href="#" class="btn btn-primary btn-baff">Read</a>   
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="subcribe-foot">
+
+		<div class="row">
+			<div class="col-lg-8 col-md-8 text-center mar-pad0 pull-left">
+				<div class="mx-auto">
+					
+					<h3 class="white">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum.</h3>
+				</div>
+			</div>
+
+			<div class="col-lg-4 col-md-4 pull-right">
+				<div class="mx-auto pull-left subscribe">
+					
+						 <a href="#" class="btn btn-primary btn-baff">Get Quotation           <i class="fa fa-chevron-right"></i></a>
+						
+
+				</div>
+			</div>
+
+		</div>
+
+	</section>
