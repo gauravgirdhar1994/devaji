@@ -77,6 +77,26 @@
 
 
                   <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#ui-categories" aria-expanded="false"
+                              aria-controls="ui-basic">
+                              <i class="far fa-compass menu-icon"></i>
+                              <span class="menu-title">Categories</span>
+                              <i class="menu-arrow"></i>
+                        </a>
+                        <div class="collapse" id="ui-categories">
+                              <ul class="nav flex-column sub-menu">
+
+                                    <li class="nav-item"> <a class="nav-link"
+                                                href="<?php echo base_url(); ?>admin/add-category">Add new category</a>
+                                    </li>
+                                    <li class="nav-item"> <a class="nav-link"
+                                                href="<?php echo base_url(); ?>admin/categories-list">View All</a></li>
+                                    <!-- <li class="nav-item"> <a class="nav-link" href="<?php echo base_url(); ?>admin/services/service-upload">Upload Samples</a></li> -->
+                              </ul>
+                        </div>
+                  </li>
+
+                  <li class="nav-item">
                         <a class="nav-link" data-toggle="collapse" href="#ui-services" aria-expanded="false"
                               aria-controls="ui-basic">
                               <i class="far fa-compass menu-icon"></i>

@@ -2929,7 +2929,7 @@ input:focus {
 	visibility: hidden;
 	opacity: 0;
 	box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.05);
-	padding: 17px 0;
+	padding: 17px;
 	border-top: 3px solid #f05736;
 	border-radius: 7px 7px 3px 3px;
 	-webkit-transition: all .2s ease-out 0s;
@@ -11519,3 +11519,85 @@ input:focus {
 	background-color: #fff;
 	border-color: #f05736;
   }
+    
+  .owl-nav button {
+	position: absolute;
+	top: 50%;
+	border: none;
+	background-color: #f05736;
+	color: #fff;
+	margin: 0;
+	transition: all 0.3s ease-in-out;
+    }
+    .owl-nav button.owl-prev {
+	left: 0;
+    }
+    .owl-nav button.owl-next {
+	right: 0;
+    }
+    
+    .owl-dots {
+	text-align: center;
+	padding-top: 15px;
+    }
+    .owl-dots button.owl-dot {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	display: inline-block;
+	background: #ccc;
+	margin: 0 3px;
+    }
+    .owl-dots button.owl-dot.active {
+	background-color: #f05736;
+    }
+    .owl-dots button.owl-dot:focus {
+	outline: none;
+    }
+    .owl-nav button {
+	  position: absolute;
+	  top: 50%;
+	  transform: translateY(-50%);
+    }
+    span {
+	  font-size: 25px;    
+	  position: relative;
+    }
+    .owl-nav button:focus {
+	  outline: none;
+    }
+    
+    .about-details .owl-slider{
+	    width: 100%;
+    }
+    
+    #cate-carousel{
+	position: relative;
+	height: 250px;
+	box-shadow: 0 3px 1px -2px rgb(0 0 0 / 20%), 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%);
+	background: #fff;
+	width: 100%;
+	margin-top: -121px;
+	}
+    
+#cate-carousel .owl-item{
+	max-height: 300px;
+	/* margin: 20px; */
+}
+
+#cate-carousel .owl-item .item{
+	max-height: 210px;
+	padding: 30px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 20px;
+	border: 1px solid #e5e5e5;
+}
+
+#cate-carousel .owl-item .item h3{
+	text-align: center;
+}
+
+#cate-carousel .owl-item .item img{
+	max-height: 100px;
+}

@@ -18,7 +18,7 @@
                                                       enctype="multipart/form-data">
                                                       <input type="hidden" required="required" name="id" id="product_id"
                                                             value="<?php if(!empty($product_details[0]->Id)) { echo $product_details[0]->Id; } ?>">
-                                                      <h4>Section 1</h4>
+                                                      <!-- <h4>Section 1</h4> -->
 
                                                       <div class="row">
                                                             <div class="col-md-5">

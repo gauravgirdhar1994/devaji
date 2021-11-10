@@ -59,7 +59,14 @@
                                                 <ul id="navigation">
                                                       <li><a href="<?php echo base_url(); ?>">Home</a></li>
                                                       <li><a href="<?php echo base_url(); ?>about">About</a></li>
-                                                      <li><a href="<?php echo base_url(); ?>products">Products</a>
+                                                      <li><a href="<?php echo base_url(); ?>products">Products </a>
+                                                            <ul class="submenu">
+                                                                  <?php $i=1;if(!empty($productCategories)) foreach ($productCategories as $category) { ?>
+                                                                  <li><a href="<?php echo base_url(); ?>products/<?php echo $category->categorySlug; ?>"><?php echo $category->categoryName; ?></a>
+                                                                  </li>
+                                                                  <?php $i++; }?>
+                                                            </ul>
+
                                                       </li>
                                                       <li class="hot"><a
                                                                   href="<?php echo base_url(); ?>products/latest">Latest</a>

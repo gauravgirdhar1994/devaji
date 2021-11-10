@@ -23,11 +23,15 @@ class Admin_products extends MX_Controller {
 	{
 		parent::__construct();
 		$this->load->model('Admin_products_model');
+$this->load->model('Admin_categories_model');
+
 	}
 
 
 	public function add_new_product()
 	{
+$data['productCategories'] = $this->Admin_categories_model->fetch_categories_list();
+
 		$data['content'] = 'admin-add-products';
 		$this->load->view('admin-template', $data);
 	}
@@ -36,6 +40,8 @@ class Admin_products extends MX_Controller {
 		$data['ProductTitle']=$this->input->post('ProductTitle');
 		$data['ProductDescription']=$this->input->post('ProductDescription');
 		$data['isFeatured']=$this->input->post('isFeatured');
+$data['categoryId'] = $this->input->post('categoryId');
+
 		$data['isLatest']=$this->input->post('isLatest');
 		$data['Status']=$this->input->post('Status');
 		$data['Language'] = $this->session->userdata('sessionLanguage');
@@ -63,7 +69,8 @@ class Admin_products extends MX_Controller {
 		}
 
 		$result = $this->Admin_products_model->add_products_data($data);
-		// echo $result;die;
+// echo $result;die;
+
 		redirect('admin/product-list');
 	}
 

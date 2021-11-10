@@ -39,7 +39,10 @@ class Welcome extends MX_Controller {
 		$data['aboutUsData'] = $this->Welcome_model->fetch_aboutus_data($data['language']);
 		$data['latestProductsData'] = $this->Welcome_model->fetch_latest_products_data($data['language']);
 		$data['featuredProductsData'] = $this->Welcome_model->fetch_featured_products_data($data['language']);
-		// var_dump($data);die;	
+		$data['productCategories'] = $this->Welcome_model->fetch_product_categories($data['language']);
+
+// var_dump($data);die;
+
 		$data['view_name'] = 'index';
 		$this->load->view('template', $data);
 	}

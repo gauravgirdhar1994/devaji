@@ -72,6 +72,8 @@ class MX_Controller
 		}
 
 		$data['lang'] = $this->Site_model->fetch_langs($language);
+		
+		$data['productCategories'] = $this->Site_model->fetch_product_categories();
 
 		$this->load->vars( $data );
 	}

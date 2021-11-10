@@ -33,6 +33,32 @@
       <div class="about-details section-padding30">
             <div class="container">
                   <div class="row">
+                        <div class="owl-slider">
+                              <div id="cate-carousel" class="owl-carousel">
+                                    <?php $i=1;if(!empty($productCategories)) foreach ($productCategories as $category) { ?>
+                                    <a href="<?php echo base_url(); ?>products/<?php echo $category->categorySlug; ?>">
+                                          <div class="item">
+                                                <h3><?php echo $category->categoryName; ?></h3>
+                                                <img src="<?php echo base_url(); ?>uploads/products/category/<?php if(!empty($category->categoryImage)) echo $category->categoryImage;  ?>"
+                                                      class="img-fluid">
+                                          </div>
+                                    </a>
+
+                                    <?php $i++; } ?>
+
+
+                              </div>
+                        </div>
+
+                  </div>
+            </div>
+      </div>
+
+
+
+      <div class="about-details section-padding30">
+            <div class="container">
+                  <div class="row">
                         <div class="col-lg-12">
                               <div class="about-details-cap mb-50">
                                     <h4><?php echo $aboutUsData[0]->SectionHeading; ?></h4>

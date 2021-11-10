@@ -534,5 +534,38 @@
       $('#list').click(function(event){event.preventDefault();$('#products .item').addClass('list-group-item');});
       $('#grid').click(function(event){event.preventDefault();$('#products .item').removeClass('list-group-item');$('#products .item').addClass('grid-group-item');});
     });
+    
+    $("#cate-carousel").owlCarousel({
+      autoplay: true,
+      rewind: true /* use rewind if you don't want loop */,
+      margin: 50,
+      dots: false,
+      /*
+      animateOut: 'fadeOut',
+      animateIn: 'fadeIn',
+      */
+      responsiveClass: true,
+      autoHeight: true,
+      autoplayTimeout: 7000,
+      smartSpeed: 800,
+      nav: true,
+      responsive: {
+        0: {
+          items: 1,
+        },
+
+        600: {
+          items: 3,
+        },
+
+        1024: {
+          items: 4,
+        },
+
+        1366: {
+          items: 4,
+        },
+      },
+    });
 
 })(jQuery);

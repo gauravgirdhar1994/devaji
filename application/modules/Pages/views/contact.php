@@ -17,6 +17,8 @@
             <div class="d-none d-sm-block">
 
                   <div class="row">
+
+                        <div id="map"></div>
                         <div class="col-12">
                               <h2 class="contact-title">Get in Touch</h2>
 

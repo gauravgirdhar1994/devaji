@@ -111,6 +111,8 @@ define('TBL_TESTIMONIALS', DB_PREFIX.'testimonials');
 
 define('TBL_PRODUCTS', DB_PREFIX.'products');
 
+define('TBL_CATEGORIES', DB_PREFIX . 'product_categories');
+
 define('TBL_EMAIL_TEMPLATES', DB_PREFIX.'email_templates');
 
 define('TBL_LANGS', DB_PREFIX.'lang_variables');

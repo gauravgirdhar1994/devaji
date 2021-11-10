@@ -100,6 +100,26 @@ class Welcome_model extends CI_Model {
 			return false;			
 		}
 	}
+	
+	public function fetch_product_categories($language)
+	{
+		
+		$this->db->select('*');
+		$this->db->from(TBL_CATEGORIES);
+		// $this->db->where('Language',$language);
+		$this->db->where('status',1);
+		$this->db->limit(12);
+		$query = $this->db->get();
+		// echo $this->db->last_query();die;
+		if($query && $query->num_rows() > 0)
+		{
+			return $query->result();
+		}
+		else
+		{
+			return false;			
+		}
+	}
 }
 
 ?>

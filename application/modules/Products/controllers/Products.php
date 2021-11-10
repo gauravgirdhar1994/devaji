@@ -44,6 +44,8 @@ class Products extends MX_Controller {
 		else{
 			$data['language'] = 'en';
 		}
+// echo $slug;die;
+
 		$data['productData'] = $this->products_model->fetch_product_data($data['language'], $slug);
 		if($slug == "featured") { $data['pageHeading'] = 'Featured Products'; }
 		if($slug == "latest") { $data['pageHeading'] = 'Latest Products'; }

@@ -114,5 +114,14 @@ $route['admin/submit-edit-product'] = 'Admin_products/Admin_products/edit_produc
 $route['admin/products/delete/all'] = 'Admin_products/Admin_products/delete_all_products';
 $route['admin/fetch-data-product'] = 'Admin_products/Admin_products/fetch_data_product';
 
+$route['admin/add-category'] = 'Admin_products/Admin_categories/add_new_category';
+$route['admin/submit-new-categories'] = 'Admin_products/Admin_categories/submit_new_categories';
+$route['admin/categories-list'] = 'Admin_products/Admin_categories/categories_list';
+$route['admin/delete-category/(:any)'] = 'Admin_products/Admin_categories/delete_category/$1';
+$route['admin/edit-category/(:any)'] = 'Admin_products/Admin_categories/edit_category/$1';
+$route['admin/submit-edit-category'] = 'Admin_products/Admin_categories/edit_category_submit';
+$route['admin/categories/delete/all'] = 'Admin_products/Admin_categories/delete_all_categories';
+$route['admin/fetch-data-category'] = 'Admin_products/Admin_categories/fetch_data_category';
+
 $route['admin/contacts/settings'] = 'Admin_contacts/Admin_contacts/settings';
 $route['admin/contacts/settings/update'] = 'Admin_contacts/Admin_contacts/settings_update';

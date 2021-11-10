@@ -20,7 +20,7 @@
                                                       <!-- <h4>Section 1</h4> -->
 
                                                       <div class="row">
-                                                            <div class="col-md-5">
+                                                            <div class="col-md-4">
                                                                   <div class="form-group">
                                                                         <label class="col-sm-3 col-form-label">Product
                                                                               Title</label>
@@ -35,7 +35,24 @@
                                                                         </div>
                                                                   </div>
                                                             </div>
-                                                            <div class="col-md-7">
+                                                            <div class="col-md-4">
+                                                                  <div class="form-group">
+                                                                        <label class="col-sm-3 col-form-label">Product
+                                                                              Category</label>
+                                                                        <div class="col-sm-9">
+                                                                              <select class="form-control"
+                                                                                    name="categoryId">
+                                                                                    <?php $i=1;if(!empty($productCategories)) foreach ($productCategories as $category) { ?>
+                                                                                    <option
+                                                                                          value="<?php echo $category->id ?>">
+                                                                                          <?php echo $category->categoryName; ?>
+                                                                                    </option>
+                                                                                    <?php $i++;} ?>
+                                                                              </select>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="col-md-4">
                                                                   <div class="form-group">
                                                                         <label class="col-sm-3 col-form-label">Product
                                                                               Description</label>

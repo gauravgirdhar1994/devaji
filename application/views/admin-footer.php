@@ -22,6 +22,7 @@
 <script src="<?php echo base_url(); ?>assets/ckeditor/ckeditor.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/admin-team-datatable.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/admin-products-datatable.js"></script>
+<script src="<?php echo base_url(); ?>assets/js/admin-categories-datatable.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/admin-testimonial-datatable.js"></script>
 <script>
 CKEDITOR.replace('editor1', {
