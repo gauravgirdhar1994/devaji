@@ -87,6 +87,32 @@
             </div>
       </div>
 
+
+      <div class="shop-method-area">
+            <div class="container-fluid p-0">
+                  <div class="method-wrapper">
+                        <div class="row d-flex justify-content-between">
+                              <div class="col-xl-8 col-lg-8 col-md-8">
+                                    <div class="single-method mb-40">
+                                          <i class="ti-package"></i>
+                                          <h3 class="text-white">Our Products Brochure</h3>
+                                          <h4 class="text-white">Download the complete product brochure to know more
+                                                about the products in
+                                                detail</h4>
+                                    </div>
+                              </div>
+                              <div class="col-xl-4 col-lg-4 col-md-4">
+                                    <div class="single-method mb-40">
+                                          <a class="btn btn-primary btn-xl mt-50" target="_blank"
+                                                href="<?php echo base_url(); ?>devaji_products.pdf" download>Download
+                                                Brochure</a>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </div>
+      </div>
+
       <section class="new-product-area section-padding30">
             <div class="container">
                   <!-- Section tittle -->
@@ -120,30 +146,6 @@
                   </div>
             </div>
       </section>
-      <div class="shop-method-area">
-            <div class="container-fluid p-0">
-                  <div class="method-wrapper">
-                        <div class="row d-flex justify-content-between">
-                              <div class="col-xl-8 col-lg-8 col-md-8">
-                                    <div class="single-method mb-40">
-                                          <i class="ti-package"></i>
-                                          <h3 class="text-white">Our Products Brochure</h3>
-                                          <h4 class="text-white">Download the complete product brochure to know more
-                                                about the products in
-                                                detail</h4>
-                                    </div>
-                              </div>
-                              <div class="col-xl-4 col-lg-4 col-md-4">
-                                    <div class="single-method mb-40">
-                                          <a class="btn btn-primary btn-xl mt-50" target="_blank"
-                                                href="<?php echo base_url(); ?>devaji_products.pdf" download>Download
-                                                Brochure</a>
-                                    </div>
-                              </div>
-                        </div>
-                  </div>
-            </div>
-      </div>
 
       <div class="shop-method-area">
             <div class="container-fluid p-0">
