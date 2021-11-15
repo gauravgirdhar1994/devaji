@@ -144,39 +144,7 @@
                   </div>
             </div>
       </div>
-      <section class="new-product-area section-padding30">
-            <div class="container">
-                  <!-- Section tittle -->
-                  <div class="row">
-                        <div class="col-xl-12">
-                              <div class="section-tittle mb-70">
-                                    <h2>Popular Products</h2>
-                              </div>
-                        </div>
-                  </div>
-                  <div class="row">
-                        <?php if(!empty($featuredProductsData)) foreach ($featuredProductsData as $product) { ?>
 
-                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
-                              <div class="card">
-                                    <div class="image">
-                                          <img src="<?php echo base_url(); ?>uploads/products/<?php if(!empty($product->ProductImage)) echo $product->ProductImage;  ?>"
-                                                width="100%" alt="">
-                                    </div>
-
-                                    <div class="text">
-                                          <h3><?php if(!empty($product->ProductTitle)) echo $product->ProductTitle;  ?>
-                                          </h3>
-                                          <p><?php if(!empty($product->ProductDescription)) echo $product->ProductDescription;  ?>
-                                          </p>
-                                    </div>
-
-                              </div>
-                        </div>
-                        <?php } ?>
-                  </div>
-            </div>
-      </section>
       <div class="shop-method-area">
             <div class="container-fluid p-0">
                   <div class="method-wrapper">

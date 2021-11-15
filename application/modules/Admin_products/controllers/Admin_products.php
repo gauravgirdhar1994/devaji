@@ -116,30 +116,26 @@ $data['categoryId'] = $this->input->post('categoryId');
 		$data['Language'] = $this->session->userdata('sessionLanguage');
 		// var_dump($Description);die;
 		// $data = $this->input->post();
-		// if(!empty($_FILES['productImage']['name']))
-		// {
-		// 	$config['upload_path'] = './uploads/products';
-		// 	$config['allowed_types'] = 'gif|jpg|png';
-		// 	$config['max_size']	= '50000';
-		// 	$config['max_width']  = '3000';
-		// 	$config['max_height']  = '3000';
-		// 	$this->load->library('upload', $config);
-		// 	if ( ! $this->upload->do_upload('productImage'))
-		// 	{
-		// 		$error = array('error' => $this->upload->display_errors());
-		// 		$errorMsg = $error['error'];
-		// 		print_r($errorMsg);exit;
-		// 	}
-		// 	else
-		// 	{
-		// 		$rest = array('upload_data' => $this->upload->data());
-		// 		// var_dump($rest);die;
-		// 	}
-		// 	$data['productImage'] = $rest['upload_data']['file_name'];
-		// }
-		// else{
-		// 	$data['productImage'] = $this->input->post('prevproductImage');
-		// }
+if (!empty($_FILES['productImage']['name'])) {
+    $config['upload_path'] = './uploads/products';
+    $config['allowed_types'] = 'gif|jpg|png';
+    $config['max_size'] = '50000';
+    $config['max_width'] = '3000';
+    $config['max_height'] = '3000';
+    $this->load->library('upload', $config);
+    if (!$this->upload->do_upload('productImage')) {
+        $error = array('error' => $this->upload->display_errors());
+        $errorMsg = $error['error'];
+        print_r($errorMsg);exit;
+    } else {
+        $rest = array('upload_data' => $this->upload->data());
+        // var_dump($rest);die;
+    }
+    $data['productImage'] = $rest['upload_data']['file_name'];
+} else {
+    $data['productImage'] = $this->input->post('prevproductImage');
+}
+
 
 		$res = $this->Admin_products_model->edit_product_submit($data, $product_id);
 

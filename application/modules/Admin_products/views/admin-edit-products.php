@@ -21,7 +21,7 @@
                                                       <!-- <h4>Section 1</h4> -->
 
                                                       <div class="row">
-                                                            <div class="col-md-5">
+                                                            <div class="col-md-4">
                                                                   <div class="form-group">
                                                                         <label class="col-sm-3 col-form-label">product
                                                                               Title</label>
@@ -34,7 +34,7 @@
                                                                         </div>
                                                                   </div>
                                                             </div>
-                                                            <div class="col-md-7">
+                                                            <div class="col-md-4">
                                                                   <div class="form-group">
                                                                         <label class="col-sm-3 col-form-label">product
                                                                               Description</label>
@@ -44,6 +44,22 @@
                                                                                     id="editor1"
                                                                                     placeholder="product Summary"><?php if(!empty($product_details[0]->ProductDescription)){echo $product_details[0]->ProductDescription;
                         } ?></textarea>
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                  <div class="form-group">
+                                                                        <label class="col-sm-3 col-form-label">Product
+                                                                              Image</label>
+                                                                        <div class="col-sm-9">
+                                                                              <input type="file" name="productImage"
+                                                                                    class="form-control" value="<?php if (!empty($this->session->flashdata('productImage'))) {
+    echo $this->session->flashdata('productImage');
+}?>">
+                                                                              <input type="hidden"
+                                                                                    name="prevProductImage"
+                                                                                    class="hidden"
+                                                                                    value="<?php if (!empty($product_details[0]->productImage)) {echo $product_details[0]->productImage;}?>">
                                                                         </div>
                                                                   </div>
                                                             </div>

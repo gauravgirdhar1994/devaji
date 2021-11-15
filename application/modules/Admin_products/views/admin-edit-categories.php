@@ -36,6 +36,23 @@
                                                                   </div>
                                                             </div>
 
+                                                            <div class="col-md-4">
+                                                                  <div class="form-group">
+                                                                        <label class="col-sm-3 col-form-label">category
+                                                                              Image</label>
+                                                                        <div class="col-sm-9">
+                                                                              <input type="file" name="categoryImage"
+                                                                                    class="form-control" value="<?php if (!empty($this->session->flashdata('categoryImage'))) {
+    echo $this->session->flashdata('categoryImage');
+}?>">
+                                                                              <input type="hidden"
+                                                                                    name="prevCategoryImage"
+                                                                                    class="hidden"
+                                                                                    value="<?php if (!empty($category_details[0]->categoryImage)) {echo $category_details[0]->categoryImage;}?>">
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+
 
                                                             <div class="col-md-4">
                                                                   <div class="form-group">

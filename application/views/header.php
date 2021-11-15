@@ -71,9 +71,14 @@
                                                       <li class="hot"><a
                                                                   href="<?php echo base_url(); ?>products/latest">Latest</a>
                                                       </li>
-                                                      <li><a href="<?php echo base_url(); ?>products/featured">Popular</a>
-                                                      </li>
+                                                      <!-- <li><a href="<?php echo base_url(); ?>products/featured">Popular</a>
+                                                      </li> -->
                                                       <li><a href="<?php echo base_url(); ?>contact">Contact</a></li>
+
+                                                      <li> <a class="btn btn-primary btn-xl" target="_blank"
+                                                                  href="<?php echo base_url(); ?>devaji_products.pdf"
+                                                                  download>Download
+                                                                  Brochure</a></li>
                                                 </ul>
                                           </nav>
                                     </div>
