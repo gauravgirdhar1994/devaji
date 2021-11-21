@@ -21,7 +21,7 @@
                                                       <!-- <h4>Section 1</h4> -->
 
                                                       <div class="row">
-                                                            <div class="col-md-4">
+                                                            <div class="col-md-3">
                                                                   <div class="form-group">
                                                                         <label class="col-sm-3 col-form-label">product
                                                                               Title</label>
@@ -34,7 +34,20 @@
                                                                         </div>
                                                                   </div>
                                                             </div>
-                                                            <div class="col-md-4">
+                                                            <div class="col-md-3">
+                                                                  <div class="form-group">
+                                                                        <label class="col-sm-3 col-form-label">Product
+                                                                              Code</label>
+                                                                        <div class="col-sm-9">
+                                                                              <input type="text" id="productCode"
+                                                                                    name="ProductCode"
+                                                                                    class="form-control"
+                                                                                    placeholder="Enter product Code"
+                                                                                    value="<?php if(!empty($product_details[0]->ProductCode)) { echo $product_details[0]->ProductCode; } ?>">
+                                                                        </div>
+                                                                  </div>
+                                                            </div>
+                                                            <div class="col-md-3">
                                                                   <div class="form-group">
                                                                         <label class="col-sm-3 col-form-label">product
                                                                               Description</label>
@@ -47,7 +60,7 @@
                                                                         </div>
                                                                   </div>
                                                             </div>
-                                                            <div class="col-md-4">
+                                                            <div class="col-md-3">
                                                                   <div class="form-group">
                                                                         <label class="col-sm-3 col-form-label">Product
                                                                               Image</label>

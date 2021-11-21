@@ -45,15 +45,18 @@ class Admin_home extends MX_Controller {
 
 	public function sliders_update()
 	{	
-		// echo '<pre>';var_dump($this->input->post());die;
-		// echo '<pre>';var_dump($_FILES);die;
+// echo '<pre>';
+// var_dump($this->input->post());
+// echo '<pre>';
+// var_dump($_FILES);die;
+
 		$SliderTitle = $this->input->post('SliderTitle');
 		$SliderTitleSpan = $this->input->post('SliderTitleSpan');
 		$SliderContent = 'null';
 		// var_dump($SliderContent);die;
 		// $this->db->where('Language',$this->session->userdata('sessionLanguage'));
-		$this->db->delete(TBL_HOME_SLIDERS);
-		
+$this->db->truncate(TBL_HOME_SLIDERS);
+
 		for($i=0;$i<count($SliderTitle);$i++){	
 			// if(!empty($_FILES['Image'.$i]['name']))
 			if(!empty($_FILES['SliderImage'.($i+1)]['name']))

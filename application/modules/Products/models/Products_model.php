@@ -39,5 +39,19 @@ $this->db->join(TBL_CATEGORIES . ' as categories', 'products.categoryId = catego
 			return false;
 		}
 	}
+	
+	public function fetch_product_codes(){
+		$this->db->distinct();
+		$this->db->select('ProductCode');
+		$this->db->from(TBL_PRODUCTS);
+		$query = $this->db->get();
+		
+		if($query->num_rows() > 0){
+			return $query->result();
+		}
+		else{
+			return false;
+		}
+	}
 
 }

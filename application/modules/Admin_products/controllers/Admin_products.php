@@ -39,6 +39,8 @@ $data['productCategories'] = $this->Admin_categories_model->fetch_categories_lis
 	public function submit_new_products(){
 		$data['ProductTitle']=$this->input->post('ProductTitle');
 		$data['ProductDescription']=$this->input->post('ProductDescription');
+$data['ProductCode'] = $this->input->post('ProductCode');
+
 		$data['isFeatured']=$this->input->post('isFeatured');
 $data['categoryId'] = $this->input->post('categoryId');
 
@@ -109,6 +111,8 @@ $data['categoryId'] = $this->input->post('categoryId');
 		// var_dump($_FILES);die;
 		$product_id = $this->input->post('id');
 		$data['ProductTitle']=$this->input->post('ProductTitle');
+$data['ProductCode'] = $this->input->post('ProductCode');
+
 		$data['ProductDescription']=$this->input->post('ProductDescription');
 		$data['isFeatured']=$this->input->post('isFeatured');
 		$data['isLatest']=$this->input->post('isLatest');
